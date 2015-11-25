@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferencias">
+    <PreferenceCategory android:title="OPCIONS DA RUTA">
+
+
+
+        <EditTextPreference
+            android:key="opcion1"
+            android:title="Ruta onde gardar o arquivo"
+            android:defaultValue="/DATOS/"
+        android:summary="Nesta ruta vaise gardar o arquivo"
+        android:dialogTitle="Introduce un valor" />
+
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
